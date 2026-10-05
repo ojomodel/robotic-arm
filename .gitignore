@@ -1,0 +1,53 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.pem
+*.key
+
+# Unity generated files, builds, and local state (at any project depth)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Arduino/compiler output
+.pio/
+build_*/
+*.bin
+*.elf
+*.hex
+*.o
+*.obj
+*.exe
+*.dll
+*.map
+
+# Machine-specific logs, temporary files, and OS junk
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+Desktop.ini
